@@ -13,7 +13,7 @@ public class Singleton3 {
 	private Singleton3() {
 	}
 
-	public static synchronized Singleton3 getInstance() {
+	public static  Singleton3 getInstance() {
 		//检查实例，如果不存在就进入同步去
 		if (uniqueInstance == null) {
 			//只有第一次才彻底执行这里的代码
